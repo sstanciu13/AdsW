@@ -96,8 +96,8 @@ public class TestFile {
 
         for (int i = 0; i < expectedResults.size() - 1; i++) {
             Assert.assertEquals(
-                    expectedResults.get(showIdToPrerollCountSorted.get(0).getKey()),
-                    showIdToPrerollCountSorted.get(0).getValue());
+                    expectedResults.get(showIdToPrerollCountSorted.get(i).getKey()),
+                    showIdToPrerollCountSorted.get(i).getValue());
         }
     }
 }
